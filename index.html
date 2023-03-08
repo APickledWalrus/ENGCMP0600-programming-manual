@@ -1,28 +1,96 @@
-<title>Hi</title>
+<!-- https://stackoverflow.com/questions/37770620/how-to-include-markdown-md-files-inside-html-files -->
+<!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
 
-<h1>Lorem ipsum</h1>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-</p>
+<!-- Load the element definition -->
+<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
 
-<ul id="pls">
+<title>WIP</title>
 
-</ul>
+<div class="grid-container">
+    <div class="grid-child">
+        <zero-md id="leftmd" class="side" src="./landing.md"></zero-md>
+    </div>
+
+    <div class="grid-child">
+        <!-- <zero-md id="rightmd" class="side" src="pages/example1.md"></zero-md> -->
+
+        <!-- This list could be dynamiclly generated, but for now it is not -->
+        <div class="list-group">
+            <a href="#example1" class="list-group-item">
+                <b class="list-group-item-heading">Java</b>
+                <p class="list-group-item-text">coffee</p>
+            </a>
+            <a href="#example2" class="list-group-item">
+                <b class="list-group-item-heading">Python</b>
+                <p class="list-group-item-text">snek language</p>
+            </a>
+            <a href="#example3" class="list-group-item">
+                <b class="list-group-item-heading">placeholder</b>
+                <p class="list-group-item-text">loreum ipsum</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 0.35fr;
+        grid-gap: 20px;
+    }
+
+    .list-group-item:first-child {
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+
+    .list-group-item {
+        position: relative;
+        display: block;
+        padding: 1em;
+        margin-bottom: -1px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+
+    a.list-group-item {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.list-group-item * {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+
+    .list-group-item:last-child {
+        margin-bottom: 0;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+
+    html {
+        overflow-y: scroll;
+    }
+</style>
 
 <script>
-    
-
-async function get_programming_language_list (){
-    const repo_files = await (await fetch("https://api.github.com/repos/Bejofo/programming-manual/contents/")).json();
-    for(let file of repo_files){
-        const newLink = document.createElement("a");
-        newLink.href = file.download_url;
-        newLink.textContent = file.name;
-        const newListEl = document.createElement("li");
-        newListEl.appendChild(newLink);
-        document.getElementById("pls").appendChild(newListEl);
+    window.location.hash = "";
+    window.onhashchange = function () {
+        const panel = document.getElementById("leftmd")
+        panel.setAttribute('src', `pages/${window.location.hash.slice(1)}.md`)
+        panel.render();
     }
-}
-
-get_programming_language_list();
+    // const repo_files = await (await fetch("https://api.github.com/repos/Bejofo/programming-manual/contents/pages")).json();
+    // for(let file of repo_files){
+    //     const newLink = document.createElement("a");
+    //     newLink.href = file.download_url;
+    //     href = '#'+file.name.split(".")[0];
+    //     const newListEl = document.createElement("li");
+    //     newListEl.appendChild(newLink);
+    //     document.getElementById("pls").appendChild(newListEl);
+    // }
 </script>
