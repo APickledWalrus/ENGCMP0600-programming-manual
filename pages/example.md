@@ -1,5 +1,5 @@
 # \<Language Name Here\>
-Write a little bit about the language. Why was it created? What is its purpose? Is it still relevant today?
+Write a little about the language. Why was it created? What is its purpose? Is it still relevant today?
 
 <figure style="float: right; width:30%; height:50%; object-fit:contain;">
 <img src="https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg" alt="Alt description of the logo, e.g. 'The logo of the Java programming language'">

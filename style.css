@@ -10,7 +10,7 @@
 }
 
 html {
-    overflow-y: hidden;
+    overflow: hidden;
     font-family: "Segoe UI", sans-serif;
 }
 
@@ -31,7 +31,6 @@ a {
 header {
     height: 10vh;
     border-bottom: 1px solid var(--color-secondary);
-    margin-bottom: 10px;
 
     display: flex;
     flex-wrap: wrap;
