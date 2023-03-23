@@ -1,21 +1,22 @@
 # C
-
+### Brief History
 C is widely used programming language that was orginally invented in Bell Labs in the 1970s. 
 As a low level programming language, that is often used in high-performance and embedded system.
 <img style="float: right; width:30%; height:50%; object-fit:contain;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_C_Programming_Language_logo.svg/800px-The_C_Programming_Language_logo.svg.png">
 
-# Nerd stuff
+# Features
+### Applications/Use-cases
 C is statically typed imperative language. Unlike more modern language like C++ and Java, it lacks modern object oriented programming features like classes and inheritance. 
 
 C is a compiled language. 
 The C preprocessor allows programmers to write predefined marcos, and allows some metaprogramming abillity.
 
+### Downsides/Difficulties
 C doesn't do garbage collection, memory mangament must be handled manually. Programmers must be caution of memory leaks and segfaults.
 
 Most data structures must be built yourself.
 
 # Ecosystem
-
 To compile a program, one must have a compiler. Popular compilers include Clang and GCC.
 
 If you are using Linux (Ubuntu or any distrubtion using apt package manager) you can install GCC by running:
@@ -58,4 +59,5 @@ int main() {
 
 \* Out of the developer who currently work with this language, how many (wish/do not wish) to continue working with this language. 
 
+# Sources
 Stats from https://survey.stackoverflow.co/2022/#technology-most-popular-technologies
