@@ -106,6 +106,62 @@ a.horizontal-list-group-item * {
 }
 
 /*
+ * dropdown
+ */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-header {
+    color: var(--color-secondary-text);
+
+    border: 1px solid var(--color-secondary-tint);
+    border-radius: 8px;
+
+    padding: 3px 10px 3px 10px;
+    margin: 0;
+
+    cursor: pointer;
+}
+
+.dropdown:hover > .dropdown-header {
+    background-color: var(--color-secondary-tint);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+    border: 3px solid var(--color-secondary-tint);
+    border-top: 0;
+    box-sizing: border-box;
+    background-color: var(--color-primary);
+
+    width: 100%;
+}
+
+.dropdown-content p {
+    color: var(--color-primary-text);
+    margin: 0;
+    padding-left: 10px;
+}
+
+.dropdown-content p:hover {
+    background-color: var(--color-primary-shade);
+}
+
+.dropdown:hover > .dropdown-content {
+    display: block;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/*
  * transition
  */
 
