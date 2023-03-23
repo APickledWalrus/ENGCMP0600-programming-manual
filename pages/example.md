@@ -24,7 +24,7 @@ Show something basic (e.g. "Hello World!")
 ```
 
 # Stats
-How many people use this language? Is it well liked/popular? What's significant about it?
+Statistics may be shown in image, graph, chart, bullet-point, or text form. How many people use this language? Is it well liked/popular? What's significant about it? 
 
 # Sources
 Please cite any sources used for the page's content.
