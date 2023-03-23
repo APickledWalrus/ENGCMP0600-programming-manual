@@ -46,3 +46,4 @@ print("Hello world")
 - Python is an interpreted language, which means that code written in Python is executed line by line, rather than being compiled into machine code. This can make it easier to write and debug code, but can also lead to slower performance in some cases.
 
 # Sources
+Stats from https://www.tiobe.com/tiobe-index/python/.
