@@ -10,9 +10,9 @@ Web development is a common use for Ruby. With the Ruby on Rails(aka RoR or Rail
 
 The first static site generator, Jekyll is written with Ruby. Static site generators deploy pages to a server after generating every page at once. Typically websites that utilize such generators don’t contain content frequently altering. A user visiting a URL is provided with a static HTML file.
 
+### Downsides/Difficulties
 While web applications can be quickly developed with Ruby, the actual performance of the applications are not always as fast. The weight slowing Ruby down comes from database connections and the written code’s framework. 
 
-### Downsides/Difficulties
 Due to its operations on strict standards and paradigms, there’s a lack of flexibility with changing the core codebase. Several of the objects already pre-configured as well as default code samples are not editable. 
 
 While you can write code while running the program, debugging and tracing errors is difficult and primitive. There's no method to get a true list of what problems there are with code that won’t properly run. Anything errors that are found during runtime will have to be traced or mapped back to the static code to figure out where it originates. Changes would have to be made until the runtime changes to the desired output.
