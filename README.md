@@ -19,13 +19,16 @@ More information can be found at the [elevator pitch](https://apickledwalrus.git
 
 #### How do I view the content?
 The manual can be accessed at [https://apickledwalrus.github.io/programming-manual/](https://apickledwalrus.github.io/programming-manual/).
-Different pages are accessed by clicking on the various language names on the head bar.
+Different pages are accessed by clicking on the various language names on the head bar. 
+
+#### How do I compare languages?
+Side by side comparisions can be done by first clicking on the "compare" button on the header and then selecting a right and left language.
 
 
 #### How do I contribute?
-1. Fork the repository.
+1. Fork the GitHub repository.
 2. Make changes as desired following the general template.
- *  The general template can be found under pages as "example.md".
+ *  The general template can be found under the pages folder as "example.md".
 3. Once content with the edits, do a pull request.
 4. Request acceptance/denial results release within 7 days.
 
