@@ -1,11 +1,6 @@
 # Introduction
 This programming manual serves as an open source database on programming languages. The database details information regarding the language's origins, applications, downsides, statistics, and more. Due to the open source nature of this project, we are open to edits that add more languages, improve accessibility, and refine existing content. As more languages establish, the website will update accordingly to keep up with current trends in programming. Our manual intends to help those who may not be sure what language would best suit their needs as well as introduce programmers to other languages they have yet to learn.
 
-# Version History
-|ID   | Date (MM/DD/YYYY) | Description                        |
-|-----|-------------------|------------------------------------|
-|1    | 03-23-2023        | MVP (minimum viable product) ready |
-
 # Guidelines to Contributing
 The following are the rules to abide by when creating and adding onto new language pages(This list may be updated in the future):
 1. Use the "example.md" in the pages folder on the Github repository as a guide to orienting information.
@@ -18,7 +13,8 @@ The following are the rules to abide by when creating and adding onto new langua
 
 # FAQ
 #### What is this programming manual?
-A database with information on various programming languages. More information can be found at the original [elevator pitch](https://apickledwalrus.github.io/programming-manual/project-elevator-pitch/index.html).
+A database with information on various programming languages.
+More information can be found at our [elevator pitch](https://apickledwalrus.github.io/programming-manual/project-elevator-pitch/index.html).
 
 
 #### How do I view the content?
@@ -46,6 +42,11 @@ Equity, diversity, and inclusion are key to our project. Regardless of identity 
 
 # Ethics
 Due to the open-source nature of this project, individuals may add on new content or edit current content. Contributors should keep in mind basic code of conduct regarding collaboration. Only changes that comply with our set expectations and values will be considered as additions to this database. Plagiarism is not tolerated and we expect contributors to provide source links as well for other collaborators to be credited appropriately. Hateful speech and private personal information are also not allowed on pages. Lastly, all of our database’s users and contributors reserve the right to confidentiality. 
+
+# Version History
+|ID   | Date (MM/DD/YYYY) | Description                        |
+|-----|-------------------|------------------------------------|
+|1    | 03-23-2023        | MVP (minimum viable product) ready |
 
 # Credits
 <!-- Pitt Fuego Credit -->

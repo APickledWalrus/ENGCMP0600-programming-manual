@@ -17,6 +17,7 @@ It has qualities from procedural and object-oriented programming, supporting fun
 Advanced packages provide users the ability to also execute code of other languages within R.
 
 ### Downsides/Difficulties
+R is known to be a bit difficult to learn, especially for beginners. Unfortunately, this may make it difficult for its audience (statisticians, etc.) who have little programming background to make use of the language.
 
 # Ecosystem
 R can be installed from the [project's website](https://www.r-project.org/). There are also popular integrated development environments (IDEs) such as [RStudio](https://www.rstudio.com/categories/rstudio-ide/). In fact, the R website is an extremely useful tool when looking for downloads, help, and more.

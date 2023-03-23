@@ -24,6 +24,7 @@ With more than 300 keywords (think `AND`, `OR`, etc.), it was designed to be hig
 COBOL has been expanded upon for decades. In fact, in 2002, it was expanded to become object-oriented (although this standard has been poorly and inconsistently supported). Many implementations of COBOL exist, including those by [IBM](https://developer.ibm.com/languages/cobol/) and [FSF](https://gnucobol.sourceforge.io/).
 
 ### Downsides/Difficulties
+Compared to modern programming languages, it is wordier, hard to apply for certain applications (e.g. not so general purpose), and may take far longer to run and compile programs.
 
 # Ecosystem
 There is no standard application for executing COBOL code, although [OpenCobolIDE](https://pypi.org/project/OpenCobolIDE/) is rather popular.

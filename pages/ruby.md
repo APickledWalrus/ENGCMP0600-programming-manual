@@ -1,4 +1,4 @@
-# Ruby
+# Ruby ([ruby-lang.org](https://www.ruby-lang.org/en/))
 ### Brief History
 Developed by Yukihiro “Matz” Matsumoto in the 1990s, Ruby’s first version officially released on December 25th, 1996. As an open-source object-oriented scripting language, everything in Ruby is an object except for blocks. Ruby was built in mind to smoothly connect human programmers to computers. Since Ruby is an interpreted scripting language, code can execute without the need to compile. 
 

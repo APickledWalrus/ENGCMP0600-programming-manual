@@ -1,4 +1,4 @@
-# JavaScript
+# JavaScript ([javascript.com](https://www.javascript.com/))
 ### Brief History
 JavaScript was created by Brendan Eich in just ten days in May 1995, while he was working for Netscape Communications Corporation. Initially, it was called Mocha, then it was renamed to LiveScript and finally, it was renamed to JavaScript(it has nothing to do with Java). It was first introduced as a way to make web pages more interactive and responsive by allowing developers to manipulate the Document Object Model (DOM), which represents the content of a web page.
 
