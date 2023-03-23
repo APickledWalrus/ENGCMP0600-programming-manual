@@ -1,6 +1,7 @@
 #  Lisp
 ### Brief History
 Lisp is a programming language invented in the 1960 by John McCarthy. Scheme is noteable for it's involvement in early artifical intellegence research and very distinve sytnax. There are many variants of Lisp todays, such as Common Lisp, Scheme and Clojure.
+
 <img style="float: right; width:30%; height:50%; object-fit:contain;" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Lisp_logo.svg">
 
 # Features
