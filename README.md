@@ -17,7 +17,7 @@ The following are the rules to abide by when creating and adding onto new langua
 
 # FAQ
 #### What is this programming manual?
-A database with information on various programming languages.
+A database with information on various programming languages. More information can be found at the original [elevator pitch](https://apickledwalrus.github.io/programming-manual/project-elevator-pitch/index.html).
 
 
 #### How do I view the content?
