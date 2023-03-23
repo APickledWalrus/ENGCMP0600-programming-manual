@@ -1,15 +1,17 @@
 
 # Java
-
+### Brief History
 <figure style="float: right; width:30%; height:50%; object-fit:contain;">
 <img src="https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg" alt="Alt description of the logo, e.g. 'The logo of the Java programming language'">
 
 Java is a popular programming language that was first introduced by Sun Microsystems in 1995. It was designed to be simple, secure, and platform-independent, meaning it can run on any operating system without needing to be recompiled. Java is an object-oriented programming language, which means it emphasizes the creation of reusable code modules and emphasizes the use of objects and classes to create software applications.
 
 
-# Nerd Stuff
+# Features
+### Applications/Use-cases
 One of the key features of Java is its "write once, run anywhere" (WORA) philosophy, which allows developers to write code on one platform and run it on any other platform that supports Java. This is made possible by the use of the Java Virtual Machine (JVM), which translates the Java code into machine language that can be understood by the host operating system.Java's ability to run on any operating system without needing to be recompiled has made it a popular choice for developing desktop, web, and mobile applications. Java is widely used in enterprise-level web application development due to its Java EE API, frameworks like Spring and Hibernate, and scalability. Java is also a preferred choice for developing mobile applications on the Android platform. Java can be used for developing scientific computing applications due to its performance and availability of scientific libraries. The finance industry widely uses Java for developing trading and financial management applications. Java's versatility makes it a popular choice for developing gaming applications using libraries like LibGDX and JMonkeyEngine. Overall, Java's primary applications are diverse, and its flexibility makes it an excellent choice for developing complex software applications in various domains.
 
+### Downsides/Difficulties
 One of the main drawbacks of Java is its relatively slow performance compared to lower-level programming languages like C and C++. While this gap has narrowed over time, some applications may still require the performance benefits of these lower-level languages.
 
 Another challenge associated with Java is its memory usage, which can be significant compared to other programming languages. This can be a particular problem in embedded systems or other memory-constrained environments.
@@ -53,3 +55,5 @@ Once you have the JDK installed, follow these steps to run the "Hello World" pro
 - Java has a strong focus on security, with built-in mechanisms for sandboxing and other security features to help prevent malicious code execution.
 - Java has a significant impact on the job market, with many high-paying jobs available for Java developers in a variety of industries.
 - Java is continually evolving, with new features and improvements being added to the language on a regular basis. The latest version of Java as of September 2021 is Java 17.
+    
+# Sources
