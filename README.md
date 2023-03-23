@@ -35,7 +35,7 @@ Give the website a few minutes at least to update. If the site doesn't update wi
 Equity, diversity, and inclusion are key to our project. Regardless of identity and background, we aim to keep our project open and accessible to all potential contributors to this language database. We actively strive to combat discrimination. A wide range of perspectives helps the project grow and evolve as well as encourage intellectual discourse on computing languages. 
 
 # Ethics
-Due to the open-source nature of this project, individuals may add on new content or edit current content. Contributors should keep in mind basic code of conduct regarding collaboration. Only changes that comply with our set expectations and values will be considered as additions to this database. Plagiarism is not tolerated and we expect contributors to provide links and other collaborators to be credited. Lastly, all of our database’s users and contributors reserve the right to confidentiality. 
+Due to the open-source nature of this project, individuals may add on new content or edit current content. Contributors should keep in mind basic code of conduct regarding collaboration. Only changes that comply with our set expectations and values will be considered as additions to this database. Plagiarism is not tolerated and we expect contributors to provide source links as well for other collaborators to be credited appropriately. Lastly, all of our database’s users and contributors reserve the right to confidentiality. 
 
 # Credits
 <!-- Pitt Fuego Credit -->
