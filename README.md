@@ -8,6 +8,15 @@ This programming manual serves as an open source database on programming languag
 |-----|----------|-------------------------|
 |1    |03-22-2023|Initial website release. |
 
+# Guidelines to Contributing
+The following are the rules to abide by when creating and adding onto new language pages(In the future this list may be updated):
+1. Use the "example.md" in the pages folder on the Github repository as a guide to orienting information.
+2. Maintain alphabetical ordering with the header's language list.
+3. Cite where information contributing to the site was taken from.
+4. All information must be accurate and traceable. 
+5. Text content must follow standard grammatical conventions.
+6. Words must all be correctly spelled.
+
 # FAQ
 #### What is this programming manual?
 A database with information on various programming languages.
@@ -26,7 +35,7 @@ Click on the link above on the "here" to access the site. Different pages are ac
 
 
 #### Why weren't my edits accepted?
-Requests are only denied if they do not abide the terms and policies.
+Requests are only denied if they do not abide the guidelines or the inclusion/ethics policies.
 
 
 #### Why isn't the page content updating?
@@ -36,7 +45,7 @@ Give the website a few minutes at least to update. If the site doesn't update wi
 Equity, diversity, and inclusion are key to our project. Regardless of identity and background, we aim to keep our project open and accessible to all potential contributors to this language database. We actively strive to combat discrimination. A wide range of perspectives helps the project grow and evolve as well as encourage intellectual discourse on computing languages. 
 
 # Ethics
-Due to the open-source nature of this project, individuals may add on new content or edit current content. Contributors should keep in mind basic code of conduct regarding collaboration. Only changes that comply with our set expectations and values will be considered as additions to this database. Plagiarism is not tolerated and we expect contributors to provide source links as well for other collaborators to be credited appropriately. Lastly, all of our database’s users and contributors reserve the right to confidentiality. 
+Due to the open-source nature of this project, individuals may add on new content or edit current content. Contributors should keep in mind basic code of conduct regarding collaboration. Only changes that comply with our set expectations and values will be considered as additions to this database. Plagiarism is not tolerated and we expect contributors to provide source links as well for other collaborators to be credited appropriately. Hateful speech and private personal information are also not allowed on pages. Lastly, all of our database’s users and contributors reserve the right to confidentiality. 
 
 # Credits
 <!-- Pitt Fuego Credit -->
