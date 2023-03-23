@@ -2,6 +2,7 @@
 ### Brief History
 C is widely used programming language that was orginally invented in Bell Labs in the 1970s. 
 As a low level programming language, that is often used in high-performance and embedded system.
+
 <img style="float: right; width:30%; height:50%; object-fit:contain;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_C_Programming_Language_logo.svg/800px-The_C_Programming_Language_logo.svg.png">
 
 # Features
