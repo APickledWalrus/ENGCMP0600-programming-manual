@@ -1,10 +1,9 @@
 
 # Python
 ### Brief History
-Python is a high-level, interpreted programming language that was first released in 1991 by Guido van Rossum. Its design philosophy emphasizes code readability and simplicity, which makes it easy for developers to write and understand code.
-Python is widely used in various fields, such as web development, scientific computing, data analysis, artificial intelligence, machine learning, and more. Its popularity is due to its ease of use, portability, and large community of users.
-Python has gone through several versions, with the latest being Python 3.x. The first version, Python 1.0, was released in 1994, followed by Python 2.0 in 2000. Python 3.0 was released in 2008 and introduced several new features and changes, which led to some backward incompatibilities with the earlier versions.
-Despite the changes in the language over the years, Python has maintained its popularity and has become one of the most widely used programming languages in the world. It has been used to develop various popular applications and platforms, including Instagram, Dropbox, YouTube, and more.
+Python is a high-level, interpreted programming language that was first released in 1991 by Guido van Rossum. Its design philosophy emphasizes code readability and simplicity, which makes it easy for developers to write and understand code. Python is widely used in various fields, such as web development, scientific computing, data analysis, artificial intelligence, machine learning, and more. Its popularity is due to its ease of use, portability, and large community of users.
+
+Python has gone through several versions, with the latest being Python 3.x. The first version, Python 1.0, was released in 1994, followed by Python 2.0 in 2000. Python 3.0 was released in 2008 and introduced several new features and changes, which led to some backward incompatibilities with the earlier versions. Despite the changes in the language over the years, Python has maintained its popularity and has become one of the most widely used programming languages in the world. It has been used to develop various popular applications and platforms, including Instagram, Dropbox, YouTube, and more.
 
 <img style="float: right;  object-fit:contain;" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
 
@@ -15,8 +14,7 @@ Python is a high-level, interpreted programming language that is widely used for
 ### Downsides/Difficulties
 While Python is a versatile and widely used programming language, it is not without its difficulties and downsides. One of the main challenges that programmers may encounter with Python is its performance compared to lower-level languages like C or C++. While Python is generally fast enough for most applications, it can be slower when handling large datasets or performing complex calculations.
   
-Another downside of Python is its limited mobile app development support, as it is not as well-suited for mobile platforms as languages like Java or Swift. Additionally, Python's dynamic typing can sometimes lead to errors that may not be caught until runtime, making it more difficult to catch errors during the development process.
-Another challenge with Python is that it is an interpreted language, which means that it requires an interpreter to run the code, rather than compiling it into machine code. This can sometimes result in longer start-up times for larger applications or scripts, which may not be desirable for some applications.
+Another downside of Python is its limited mobile app development support, as it is not as well-suited for mobile platforms as languages like Java or Swift. Additionally, Python's dynamic typing can sometimes lead to errors that may not be caught until runtime, making it more difficult to catch errors during the development process. Another challenge with Python is that it is an interpreted language, which means that it requires an interpreter to run the code, rather than compiling it into machine code. This can sometimes result in longer start-up times for larger applications or scripts, which may not be desirable for some applications.
   
 Finally, Python's popularity also means that there is a large number of libraries and frameworks available, which can sometimes make it difficult to choose the right tool for the job. Additionally, since these libraries are developed by third-party developers, there is a risk of using outdated or insecure libraries that could compromise the security of the application.
 
