@@ -2,9 +2,9 @@
 This programming manual serves as an open source database on programming languages. The database details information regarding the language's origins, applications, downsides, statistics, and more. Due to the open source nature of this project, we are open to edits that add more languages, improve accessibility, and refine existing content. As more languages establish, the website will update accordingly to keep up with current trends in programming. Our manual intends to help those who may not be sure what language would best suit their needs as well as introduce programmers to other languages they have yet to learn.
 
 # Version History
-|ID   | Date(M/D/Y) | Description                        |
-|-----|-------------|------------------------------------|
-|1    | 03-23-2023  | MVP (minimum viable product) ready |
+|ID   | Date (MM/DD/YYYY) | Description                        |
+|-----|-------------------|------------------------------------|
+|1    | 03-23-2023        | MVP (minimum viable product) ready |
 
 # Guidelines to Contributing
 The following are the rules to abide by when creating and adding onto new language pages(This list may be updated in the future):
