@@ -3,27 +3,27 @@
 
 <figure style="float: right; width:30%; height:50%; object-fit:contain;">
 <img src="https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg" alt="Alt description of the logo, e.g. 'The logo of the Java programming language'">
-<figcaption>Java</figcaption>
-</figure>
 
 Java is a popular programming language that was first introduced by Sun Microsystems in 1995. It was designed to be simple, secure, and platform-independent, meaning it can run on any operating system without needing to be recompiled. Java is an object-oriented programming language, which means it emphasizes the creation of reusable code modules and emphasizes the use of objects and classes to create software applications.
 
 
-# Primary Applications/Use cases:
+# Nerd Stuff
 One of the key features of Java is its "write once, run anywhere" (WORA) philosophy, which allows developers to write code on one platform and run it on any other platform that supports Java. This is made possible by the use of the Java Virtual Machine (JVM), which translates the Java code into machine language that can be understood by the host operating system.Java's ability to run on any operating system without needing to be recompiled has made it a popular choice for developing desktop, web, and mobile applications. Java is widely used in enterprise-level web application development due to its Java EE API, frameworks like Spring and Hibernate, and scalability. Java is also a preferred choice for developing mobile applications on the Android platform. Java can be used for developing scientific computing applications due to its performance and availability of scientific libraries. The finance industry widely uses Java for developing trading and financial management applications. Java's versatility makes it a popular choice for developing gaming applications using libraries like LibGDX and JMonkeyEngine. Overall, Java's primary applications are diverse, and its flexibility makes it an excellent choice for developing complex software applications in various domains.
 
-# Difficulties and downsides/ what’s not so good:
 One of the main drawbacks of Java is its relatively slow performance compared to lower-level programming languages like C and C++. While this gap has narrowed over time, some applications may still require the performance benefits of these lower-level languages.
+
 Another challenge associated with Java is its memory usage, which can be significant compared to other programming languages. This can be a particular problem in embedded systems or other memory-constrained environments.
+
 Another difficulty of using Java is the steep learning curve associated with the language, particularly for new developers. Java's object-oriented programming paradigm and complex syntax can be challenging to master, and many developers may require additional training or education to become proficient.
+
 Finally, Java's security model has been criticized for being too complex and difficult to implement correctly, leading to security vulnerabilities in some Java applications. While efforts have been made to improve Java's security, it remains an ongoing challenge for developers to ensure that their Java applications are secure and reliable.
 Overall, while Java has many benefits and is a popular choice for developing a wide range of software applications, it is not without its challenges and difficulties.
 
-# Ecosystem:
+# Ecosystem
 The Java ecosystem is a vast collection of libraries, frameworks, tools, and resources that support Java developers in building, testing, and deploying Java applications. At its core is the Java Development Kit (JDK), which includes the Java Virtual Machine (JVM), Java compiler, and other essential tools for developing Java applications.
 
+# Examples
 Hello World example including how to run the program:
-
 
 ```java
 public class HelloWorld{
@@ -42,8 +42,7 @@ Once you have the JDK installed, follow these steps to run the "Hello World" pro
 4. Compile the program by typing the command javac HelloWorld.java. This will create a file named "HelloWorld.class" in the same directory.
 5. Run the program by typing the command java HelloWorld. This will execute the program and print the message "Hello, World!" to the console.
 
-# Stats:
-
+# Stats
 - Java was first released in 1995 by Sun Microsystems (now owned by Oracle).
 - Java is currently the third most popular programming language in the world (as of 2021), according to the TIOBE Index.
 - Java is widely used in enterprise-level web development, and it is estimated that over 90% of Fortune 500 companies use Java in some capacity.
