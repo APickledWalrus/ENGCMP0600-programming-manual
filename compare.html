@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
+
+<title>Programming Manual</title>
+<link rel="stylesheet" href="resources/stylesheets/style.css">
+
+<!-- TODO this is kind of hacked together for the MVP so it could use improvements -->
+<header>
+    <h1><a href="index.html#home">Programming Manual</a></h1>
+
+    <div class="horizontal-list-group">
+        <a href="https://github.com/APickledWalrus/programming-manual" target="_blank" class="horizontal-list-group-item">
+            <p><b>GitHub</b></p>
+        </a>
+    </div>
+
+    <div class="dropdown" id="header-dropdown-left">
+        <button onclick="headerLeftDropdownClicked()" class="dropdown-header"><b>Select Left Language</b></button>
+        <div class="dropdown-content">
+            <!-- TODO This list should be dynamically populated -->
+            <a href="#Lc"><p>C</p></a>
+            <a href="#Lcobol"><p>COBOL</p></a>
+            <a href="#Lhtmlcss"><p>HTML & CSS</p></a>
+            <a href="#Ljava"><p>Java</p></a>
+            <a href="#Ljavascript"><p>JavaScript</p></a>
+            <a href="#Llisp"><p>Lisp</p></a>
+            <a href="#Lphp"><p>PHP</p></a>
+            <a href="#Lpy"><p>Python</p></a>
+            <a href="#Lr"><p>R</p></a>
+            <a href="#Lruby"><p>Ruby</p></a>
+        </div>
+    </div>
+
+    <div class="dropdown" id="header-dropdown-right">
+        <button onclick="headerRightDropdownClicked()" class="dropdown-header"><b>Select Right Language</b></button>
+        <div class="dropdown-content">
+            <!-- TODO This list should be dynamically populated -->
+            <a href="#Rc"><p>C</p></a>
+            <a href="#Rcobol"><p>COBOL</p></a>
+            <a href="#Rhtmlcss"><p>HTML & CSS</p></a>
+            <a href="#Rjava"><p>Java</p></a>
+            <a href="#Rjavascript"><p>JavaScript</p></a>
+            <a href="#Rlisp"><p>Lisp</p></a>
+            <a href="#Rphp"><p>PHP</p></a>
+            <a href="#Rpy"><p>Python</p></a>
+            <a href="#Rr"><p>R</p></a>
+            <a href="#Rruby"><p>Ruby</p></a>
+        </div>
+    </div>
+
+</header>
+
+<div class="markdown-display">
+    <zero-md id="markdown-display-left" class="hide" manual-render="true" style="width: 50%;">
+        <template data-merge="append">
+            <style>
+                .markdown-body {  /* We want our markdown to be in a scrollable "container" */
+                    flex: 1 1 0;
+                    overflow-y: scroll;
+                    overflow-x: hidden;
+                    padding: 1vh 1vw 1vh 1vw;
+                }
+                h1 { /* This ensures that the underline of each header only stretches as far as the text */
+                    width: fit-content;
+                }
+            </style>
+        </template>
+        <script type="text/markdown">
+            # Uh oh! We can't find this page. Try returning to the home page and starting again from there.
+        </script>
+    </zero-md>
+    <zero-md id="markdown-display-right" class="hide" manual-render="true" style="width: 50%;">
+        <template data-merge="append">
+            <style>
+                .markdown-body {  /* We want our markdown to be in a scrollable "container" */
+                    flex: 1 1 0;
+                    overflow-y: scroll;
+                    overflow-x: hidden;
+                    padding: 1vh 1vw 1vh 1vw;
+                }
+                h1 { /* This ensures that the underline of each header only stretches as far as the text */
+                    width: fit-content;
+                }
+            </style>
+        </template>
+        <script type="text/markdown">
+            # Uh oh! We can't find this page. Try returning to the home page and starting again from there.
+        </script>
+    </zero-md>
+</div>
+
+</html>
+
+<script>
+    const header_dropdown_left = document.getElementById("header-dropdown-left");
+    const header_dropdown_right = document.getElementById("header-dropdown-right");
+
+    async function headerLeftDropdownClicked() {
+        if (header_dropdown_left.classList.contains("dropdown-show-content")) {
+            header_dropdown_left.classList.remove("dropdown-show-content");
+        } else {
+            header_dropdown_left.classList.add("dropdown-show-content");
+        }
+    }
+    async function headerRightDropdownClicked() {
+        if (header_dropdown_right.classList.contains("dropdown-show-content")) {
+            header_dropdown_right.classList.remove("dropdown-show-content");
+        } else {
+            header_dropdown_right.classList.add("dropdown-show-content");
+        }
+    }
+    onclick = async function(event) {
+        if (!header_dropdown_left.contains(event.target)) {
+            header_dropdown_left.classList.remove("dropdown-show-content");
+        }
+        if (!header_dropdown_right.contains(event.target)) {
+            header_dropdown_right.classList.remove("dropdown-show-content");
+        }
+    }
+
+    const markdown_display_left = document.getElementById("markdown-display-left");
+    const markdown_display_right = document.getElementById("markdown-display-right");
+
+    async function handleHash() {
+        if (window.location.hash === "" || !window.location.hash.includes("-")) { // invalid
+            return;
+        }
+
+        hashes = window.location.hash.slice(1).split("-");
+        await updateMarkdownDisplay(markdown_display_left, hashes[0]);
+        await updateMarkdownDisplay(markdown_display_right, hashes[1]);
+    }
+
+    async function updateMarkdownDisplay(markdown_display, fileName) {
+        console.log(fileName);
+        // hide markdown display
+        markdown_display.classList.add("hide");
+
+        // change displayed markdown file
+       markdown_display.setAttribute("src", `pages/${fileName}.md`)
+
+        // render markdown display back in
+        // TODO probably a better way to do this?
+        setTimeout(async() => {
+            await markdown_display.render();
+            markdown_display.classList.remove("hide");
+        }, 300);
+    }
+
+    // on start
+    if (window.location.hash === "" || !window.location.hash.includes("-")) {
+        window.location.hash = "home-home";
+    }
+    handleHash();
+
+    // call this function too when the page updates
+    // TODO this is actually evil
+    window.onhashchange = function(event) {
+        oldHash = event.oldURL.substring(event.oldURL.indexOf("#") + 1);
+        newHash = window.location.hash.slice(1);
+        if (!newHash.includes("-") && oldHash.includes("-")) {
+            hashes = oldHash.split("-");
+            if (newHash.startsWith("L")) { // we are changing the left side
+                window.location.hash = newHash.slice(1) + "-" + hashes[1];
+            } else { // we are changing the right side
+                window.location.hash = hashes[0] + "-" + newHash.slice(1);
+            }
+        }
+        handleHash();
+    };
+
+</script>

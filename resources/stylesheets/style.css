@@ -26,12 +26,20 @@ body {
     height: 100vh;
 }
 
-#markdown-display {
+#markdown-display, #markdown-display-left, #markdown-display-right {
     /* force markdown container to use the remaining viewport */
     flex-grow: 1;
 
     display: flex;
     flex-direction: column;
+}
+
+.markdown-display {
+    /* force markdown container to use the remaining viewport */
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
 }
 
 a {
