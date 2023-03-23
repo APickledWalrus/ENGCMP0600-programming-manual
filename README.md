@@ -20,7 +20,7 @@ Click on the link above on the "here" to access the site. Different pages are ac
 #### How do I contribute?
 1. Fork the repository.
 2. Make changes as desired following the general template.
-  2.1. The general template can be found under pages as "example.md".
+  * The general template can be found under pages as "example.md".
 3. Once content with the edits, do a pull request.
 4. Request acceptance/denial results release within 7 days.
 
