@@ -6,8 +6,7 @@ Python is widely used in various fields, such as web development, scientific com
 Python has gone through several versions, with the latest being Python 3.x. The first version, Python 1.0, was released in 1994, followed by Python 2.0 in 2000. Python 3.0 was released in 2008 and introduced several new features and changes, which led to some backward incompatibilities with the earlier versions.
 Despite the changes in the language over the years, Python has maintained its popularity and has become one of the most widely used programming languages in the world. It has been used to develop various popular applications and platforms, including Instagram, Dropbox, YouTube, and more.
 
-<figure style="float: right;  object-fit:contain;">
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
+<figure style="float: right;  object-fit:contain;" img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
 
 # Features
 ### Applications/Use-cases
