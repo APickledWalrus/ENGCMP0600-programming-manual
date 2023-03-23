@@ -12,8 +12,9 @@ The following are the rules to abide by when creating and adding onto new langua
 2. Maintain alphabetical ordering with the header's language list.
 3. Cite where information contributing to the site was taken from.
 4. All information must be accurate and traceable. 
-5. Text content must follow standard grammatical conventions.
-6. Words must all be correctly spelled.
+5. All code must compile and run properly.
+6. Text content must follow standard grammatical conventions.
+7. Words must all be correctly spelled.
 
 # FAQ
 #### What is this programming manual?
