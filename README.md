@@ -1,7 +1,7 @@
 Located [here](https://apickledwalrus.github.io/programming-manual/)
 
 # Introduction
-This programming manual serves as an open source database on programming languages. The database details information regarding the language's origins, applications, downsides, statistics, and more. Due to the open source nature of this project, we are open to edits that add more languages, improve accessibility, and refine existing content. As more languages establish, the website will update accordingly to keep up with current trends in programming. This project intends to help those who may not be sure what language would best suit their needs as well as introduce programmers to other languages they have yet to learn.
+This programming manual serves as an open source database on programming languages. The database details information regarding the language's origins, applications, downsides, statistics, and more. Due to the open source nature of this project, we are open to edits that add more languages, improve accessibility, and refine existing content. As more languages establish, the website will update accordingly to keep up with current trends in programming. Our manual intends to help those who may not be sure what language would best suit their needs as well as introduce programmers to other languages they have yet to learn.
 
 # FAQ
 #### What is this programming manual?
