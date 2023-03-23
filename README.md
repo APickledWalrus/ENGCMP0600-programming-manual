@@ -7,8 +7,10 @@ This programming manual serves as an open source database on programming languag
 #### What is this programming manual?
 A database with information on various programming languages.
 
+
 #### How can I view the content?
 Click on the link above on the "here" to access the site. Different pages are accessed by clicking on the various language names on the head bar.
+
 
 #### How do I contribute?
 1. Fork the repository.
@@ -16,8 +18,10 @@ Click on the link above on the "here" to access the site. Different pages are ac
 3. Once content with the edits, do a pull request.
 4. Request acceptance/denial results release within 7 days.
 
+
 #### Why weren't my edits accepted?
 Requests are only denied if they do not abide the terms and policies.
+
 
 #### Why isn't the page content updating?
 Give the website a few minutes at least to update. If the site doesn't update with the newly added information, please contact programmingmanual.help@gmail.com.
