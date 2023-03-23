@@ -4,7 +4,7 @@ Write a little about the language. Who made it? How was it developed? Why was it
 
 <figure style="float: right; width:30%; height:50%; object-fit:contain;">
 <img src="https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg" alt="Alt description of the logo, e.g. 'The logo of the Java programming language'">
-<figcaption>Include an image of the logo too.</figcaption>
+<figcaption>Include an image of the logo too.(Feel free to put a caption to the image)</figcaption>
 </figure>
 
 # Features
