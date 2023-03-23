@@ -49,4 +49,4 @@ In fact, a large percentage of the banking system still relies on COBOL code too
 Recent interest in its application in other areas has driven a small uptick in popularity, but for the most part it has died down. This is also seen by the fact that most COBOL programmers are in likely to be in their fifties today.
 
 # Sources
-Stats from [Reuters Report](https://fingfx.thomsonreuters.com/gfx/rngs/USA-BANKS-COBOL/010040KH18J/).
+Stats from https://fingfx.thomsonreuters.com/gfx/rngs/USA-BANKS-COBOL/010040KH18J/.
