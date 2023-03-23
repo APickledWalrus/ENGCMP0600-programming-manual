@@ -1,5 +1,5 @@
 # \<Language Name Here\>
-# Brief History
+### Brief History
 Write a little about the language. Who made it? How was it developed? Why was it created? What is its purpose? Is it still relevant today?
 
 <figure style="float: right; width:30%; height:50%; object-fit:contain;">
