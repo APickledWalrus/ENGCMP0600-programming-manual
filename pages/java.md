@@ -1,7 +1,6 @@
 
 # Java
 ### Brief History
-
 Java is a popular programming language that was first introduced by Sun Microsystems in 1995. It was designed to be simple, secure, and platform-independent, meaning it can run on any operating system without needing to be recompiled. Java is an object-oriented programming language, which means it emphasizes the creation of reusable code modules and emphasizes the use of objects and classes to create software applications.
     
 <img style="float: right; width:30%; height:50%; object-fit:contain;" src="https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg">
