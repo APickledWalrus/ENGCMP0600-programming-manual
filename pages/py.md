@@ -1,17 +1,19 @@
 
 # Python
-
-<figure style="float: right;  object-fit:contain;">
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
-
+### Brief History
 Python is a high-level, interpreted programming language that was first released in 1991 by Guido van Rossum. Its design philosophy emphasizes code readability and simplicity, which makes it easy for developers to write and understand code.
 Python is widely used in various fields, such as web development, scientific computing, data analysis, artificial intelligence, machine learning, and more. Its popularity is due to its ease of use, portability, and large community of users.
 Python has gone through several versions, with the latest being Python 3.x. The first version, Python 1.0, was released in 1994, followed by Python 2.0 in 2000. Python 3.0 was released in 2008 and introduced several new features and changes, which led to some backward incompatibilities with the earlier versions.
 Despite the changes in the language over the years, Python has maintained its popularity and has become one of the most widely used programming languages in the world. It has been used to develop various popular applications and platforms, including Instagram, Dropbox, YouTube, and more.
 
-# Nerd Stuff
+<figure style="float: right;  object-fit:contain;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
+
+# Features
+### Applications/Use-cases
 Python is a high-level, interpreted programming language that is widely used for a variety of applications and use cases. Its simplicity, versatility, and ease of use make it a popular choice among programmers, data scientists, and researchers. One of its primary applications is web development, where Python is used to build robust and scalable web applications. Another major use case for Python is data analysis and machine learning, as it has a rich library of tools and frameworks that make it easy to work with and analyze large amounts of data. Python is also used for automation, scripting, and testing, as it has a large number of libraries that can be used for these purposes. Additionally, Python is widely used in scientific computing, image processing, and natural language processing, among other fields. Its extensive library of tools and frameworks, along with its intuitive syntax, make it a versatile language that can be used for a wide range of applications.
 
+### Downsides/Difficulties
 While Python is a versatile and widely used programming language, it is not without its difficulties and downsides. One of the main challenges that programmers may encounter with Python is its performance compared to lower-level languages like C or C++. While Python is generally fast enough for most applications, it can be slower when handling large datasets or performing complex calculations.
   
 Another downside of Python is its limited mobile app development support, as it is not as well-suited for mobile platforms as languages like Java or Swift. Additionally, Python's dynamic typing can sometimes lead to errors that may not be caught until runtime, making it more difficult to catch errors during the development process.
@@ -45,3 +47,5 @@ print("Hello world")
 - Some of the largest technology companies in the world use Python extensively, including Google, Amazon, Facebook, and Microsoft.
 - Python has a simple and easy-to-learn syntax, which makes it a popular choice for beginners who are just starting to learn programming.
 - Python is an interpreted language, which means that code written in Python is executed line by line, rather than being compiled into machine code. This can make it easier to write and debug code, but can also lead to slower performance in some cases.
+
+# Sources
