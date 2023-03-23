@@ -9,7 +9,7 @@ This programming manual serves as an open source database on programming languag
 |1    |03-22-2023|Initial website release. |
 
 # Guidelines to Contributing
-The following are the rules to abide by when creating and adding onto new language pages(In the future this list may be updated):
+The following are the rules to abide by when creating and adding onto new language pages(This list may be updated in the future):
 1. Use the "example.md" in the pages folder on the Github repository as a guide to orienting information.
 2. Maintain alphabetical ordering with the header's language list.
 3. Cite where information contributing to the site was taken from.
