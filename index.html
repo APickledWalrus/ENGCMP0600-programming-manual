@@ -15,8 +15,8 @@
         </a>
     </div>
 
-    <div class="dropdown">
-        <p class="dropdown-header"><b>Select a Language</b></p>
+    <div class="dropdown" id="header-dropdown">
+        <button onclick="headerDropdownClicked()" class="dropdown-header"><b>Select a Language</b></button>
         <div class="dropdown-content">
             <!-- TODO This list should be dynamically populated -->
             <a href="#c"><p>C</p></a>
@@ -56,6 +56,21 @@
 </html>
 
 <script>
+    const header_dropdown = document.getElementById("header-dropdown");
+
+    async function headerDropdownClicked() {
+        if (header_dropdown.classList.contains("dropdown-show-content")) {
+            header_dropdown.classList.remove("dropdown-show-content");
+        } else {
+            header_dropdown.classList.add("dropdown-show-content");
+        }
+    }
+    onclick = async function(event) {
+        if (!header_dropdown.contains(event.target)) {
+            header_dropdown.classList.remove("dropdown-show-content");
+        }
+    }
+
     const markdown_display = document.getElementById("markdown-display");
 
     async function updatePage() {
