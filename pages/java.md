@@ -43,7 +43,6 @@ Once you have the JDK installed, follow these steps to run the "Hello World" pro
 5. Run the program by typing the command java HelloWorld. This will execute the program and print the message "Hello, World!" to the console.
 
 # Stats
-- Java was first released in 1995 by Sun Microsystems (now owned by Oracle).
 - Java is currently the third most popular programming language in the world (as of 2021), according to the TIOBE Index.
 - Java is widely used in enterprise-level web development, and it is estimated that over 90% of Fortune 500 companies use Java in some capacity.
 - Java is the official language for developing Android applications, which has helped to increase its popularity.
@@ -55,3 +54,4 @@ Once you have the JDK installed, follow these steps to run the "Hello World" pro
 - Java is continually evolving, with new features and improvements being added to the language on a regular basis. The latest version of Java as of September 2021 is Java 17.
     
 # Sources
+Stats from https://www.tiobe.com/tiobe-index/.
