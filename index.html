@@ -46,11 +46,11 @@
 
 </header>
 
-<zero-md id="markdown-display" class="hide" class="side">
+<zero-md id="markdown-display" class="hide side" manual-render="true" no-shadow="true">
     <template data-merge="append">
         <style>
             .markdown-body {  /* We want our markdown to be in a scrollable "container" */
-                height: 88vh;
+                flex: 1 1 0;
                 overflow-y: auto;
                 overflow-x: hidden;
                 padding: 1vh 1vw 1vh 1vw;
@@ -85,12 +85,12 @@
             markdown_display.setAttribute("src", `pages/${window.location.hash.slice(1)}.md`)
         }
 
-        // TODO This could be done better
         // render markdown display back in
+        // TODO probably a better way to do this?
         setTimeout(async() => {
             await markdown_display.render();
             markdown_display.classList.remove("hide");
-        }, 420);
+        }, 300);
     }
 
     // on start
