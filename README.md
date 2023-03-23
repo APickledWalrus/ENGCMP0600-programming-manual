@@ -8,7 +8,7 @@ This programming manual serves as an open source database on programming languag
 A database with information on various programming languages.
 
 
-#### How can I view the content?
+#### How do I view the content?
 Click on the link above on the "here" to access the site. Different pages are accessed by clicking on the various language names on the head bar.
 
 
